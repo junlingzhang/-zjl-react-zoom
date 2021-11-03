@@ -1,6 +1,6 @@
 {
   "name": "zjl-react-zoom",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a test",
   "main": "dist/index.js",
   "files": [
@@ -48,15 +48,15 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.1.4",
-    "xml-loader": "^1.2.1"
+    "xml-loader": "^1.2.1",
+    "zjl-react-zoom": "^1.0.1"
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"

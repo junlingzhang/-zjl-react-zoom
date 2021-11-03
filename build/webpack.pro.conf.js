@@ -17,21 +17,7 @@ const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
 
 module.exports = merge(common, {
     mode: 'production',
-    optimization: {
-        // 将引入的第三方库文件单独打包
-        splitChunks: {
-            // 所有引入的文件都打包
-            chunks: 'all',
-            cacheGroups: {
-                vendor: {
-                    name: 'vendor',
-                    test: /[\\/]node_module[\\/]/,
-                    priority: -10,
-                    chunks: 'initial'
-                }
-            }
-        }
-    },
+
     module: {
         rules: [
             {
