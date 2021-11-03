@@ -1,6 +1,7 @@
 import React, { useState, Component } from 'react';
 import './index.css';
 
+
 class ChangeButton extends Component{
     constructor(props){
         super(props);
@@ -10,6 +11,7 @@ class ChangeButton extends Component{
     }
 
 render(){
+
 const {}=this.state;
 return(
 <div id="zjl_react-zoom" className="zjl_zoom_wrapper">

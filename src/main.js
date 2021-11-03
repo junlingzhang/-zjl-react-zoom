@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Index from './components';
-
+import ZJL from '../dist/index';
+console.log(111,ZJL,Index)
 const App = () => {
   return (
     <Index />
