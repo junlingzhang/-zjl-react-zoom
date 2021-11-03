@@ -48,8 +48,7 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.1.4",
-    "xml-loader": "^1.2.1",
-    "zjl-react-zoom": "^1.0.3"
+    "xml-loader": "^1.2.1"
   },
   "browserslist": [
     "> 1%",
