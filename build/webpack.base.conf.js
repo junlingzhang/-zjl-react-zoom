@@ -18,7 +18,8 @@ const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
 module.exports = {
   devtool: process.env.NODE_ENV === "production" ? false : "inline-source-map", //开启调试
   mode: "development", // mode 模式只有 development和production两种，需使用插件在打包时替换process.env.NODE_ENV
-  entry: ["babel-polyfill", path.resolve(__dirname, "../src/components/index.js")],
+   entry: [ path.resolve(__dirname, "../src/components/index.js")],
+  //entry: [ path.resolve(__dirname, "../src/main.js")],
   output: {
     filename: "index.js",
     path: path.resolve(__dirname, "../dist") //output.filename必须是绝对路径，如果是一个相对路径，打包时webpack会抛出异常。
