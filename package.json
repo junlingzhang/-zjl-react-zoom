@@ -1,10 +1,10 @@
 {
   "name": "zjl-react-zoom",
-  "version": "1.0.20",
+  "version": "1.1.0",
   "description": "a test",
-  "main": "lib/index.js",
+  "main": "a/index.js",
   "files": [
-    "lib"
+    "a"
   ],
   "private": false,
   "scripts": {
