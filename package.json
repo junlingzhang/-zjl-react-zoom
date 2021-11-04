@@ -1,6 +1,6 @@
 {
-  "name": "zjl-react-zoomaaa",
-  "version": "2.2.0",
+  "name": "zjl-react-zoom",
+  "version": "2.3.0",
   "description": "a test",
   "main": "dist/index.js",
   "files": [
@@ -50,7 +50,8 @@
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.1.4",
     "webpack-node-externals": "^3.0.0",
-    "xml-loader": "^1.2.1"
+    "xml-loader": "^1.2.1",
+    "zjl-react-zoom": "^2.3.0"
   },
   "browserslist": [
     "> 1%",

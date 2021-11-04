@@ -20,7 +20,7 @@ return(
             let {zoom}=this.state;
             this.setState({zoom:zoom+0.1})
             }}> +
-        </button>test2.2.0
+        </button>test2.3.0
         <button className="zjl_zoom_btn" onClick={()=>{
             let {zoom}=this.state;
             this.setState({zoom:zoom-0.1})
