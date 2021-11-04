@@ -57,7 +57,7 @@ module.exports = {
       assets: path.resolve(__dirname, "../src/assets/")
     }
   },
-  externals: [nodeExternals()],
+  // externals: [nodeExternals()],
   plugins: [
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin(),
