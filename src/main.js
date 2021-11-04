@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Index from './components';
-//  import ZJL from 'zjl-react-zoom';
+//  import ZJL from 'zjl-react-zoom/dist/index';
 // console.log(111,ZJL)
 const App = () => {
   return (
