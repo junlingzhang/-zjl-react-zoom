@@ -12,14 +12,14 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin"); // 清除dist文
 const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin"); // 用于压缩css文件
 const MiniCssExtractPlugin = require("mini-css-extract-plugin"); // 处理、打包css文件 功能类似style-loader
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin"); // 压缩js文件
+const nodeExternals  = require('webpack-node-externals');
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
   .BundleAnalyzerPlugin; //打包分析报表及优化总结
 
 module.exports = {
   devtool: process.env.NODE_ENV === "production" ? false : "inline-source-map", //开启调试
   mode: "development", // mode 模式只有 development和production两种，需使用插件在打包时替换process.env.NODE_ENV
-   entry: [ path.resolve(__dirname, "../src/components/index.js")],
-  //entry: [ path.resolve(__dirname, "../src/main.js")],
+  entry: [ path.resolve(__dirname, "../src/main.js")],
   output: {
     filename: "index.js",
     path: path.resolve(__dirname, "../dist"), //output.filename必须是绝对路径，如果是一个相对路径，打包时webpack会抛出异常。
@@ -57,10 +57,7 @@ module.exports = {
       assets: path.resolve(__dirname, "../src/assets/")
     }
   },
-  externals: {
-    //暴露全局变量
-    jquery: "jQuery"
-  },
+  externals: [nodeExternals()],
   plugins: [
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin(),

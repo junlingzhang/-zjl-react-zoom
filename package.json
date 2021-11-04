@@ -1,10 +1,10 @@
 {
   "name": "zjl-react-zoom",
-  "version": "1.0.12",
+  "version": "1.0.16",
   "description": "a test",
   "main": "dist/index.js",
   "files": [
-    "dist"
+    "lib"
   ],
   "private": false,
   "scripts": {
@@ -48,6 +48,7 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.1.4",
+    "webpack-node-externals": "^3.0.0",
     "xml-loader": "^1.2.1"
   },
   "browserslist": [

@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Index from './components';
-console.log(111)
+import ZJL from '../lib/index.js';
+console.log(111,ZJL,Index)
 const App = () => {
   return (
     <div>
