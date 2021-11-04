@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Index from './components';
-// import ZJL from 'zjl-react-zoom/dist/index';
-// console.log(22231,ZJL)
+// import ZJL from 'zjl-react-zoom';
 const App = () => {
   return (
     <div>
-      <Index />
+      111
     </div>
   )
 }

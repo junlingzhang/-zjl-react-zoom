@@ -1,6 +1,6 @@
 {
-  "name": "zjl-react-zoom",
-  "version": "2.1.0",
+  "name": "zjl-react-zoomaaa",
+  "version": "2.2.0",
   "description": "a test",
   "main": "dist/index.js",
   "files": [
@@ -58,6 +58,8 @@
     "not ie <= 8"
   ],
   "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "peerDependencies": {
     "react": "^17.0.2",
