@@ -22,7 +22,8 @@ module.exports = {
   //entry: [ path.resolve(__dirname, "../src/main.js")],
   output: {
     filename: "index.js",
-    path: path.resolve(__dirname, "../dist") //output.filename必须是绝对路径，如果是一个相对路径，打包时webpack会抛出异常。
+    path: path.resolve(__dirname, "../dist"), //output.filename必须是绝对路径，如果是一个相对路径，打包时webpack会抛出异常。
+    libraryTarget:'commonjs2',
   },
   devServer: {
     hot: true,

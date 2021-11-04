@@ -21,10 +21,6 @@ module.exports = merge(common, {
     module: {
         rules: [
             {
-                test: /\.vue$/,
-                loader: 'vue-loader'
-            },
-            {
                 test: /\.(sa|sc|c)ss$/,
                 use: [
                     {
