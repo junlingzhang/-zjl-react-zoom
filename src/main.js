@@ -2,13 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Index from './components';
 // import ZJL from 'zjl-react-zoom';
-// //let ZJL =require('zjl-react-zoom')
 // console.log(2221,ZJL)
 const App = () => {
   return (
     <div>
       <Index />
-      {/*<ZJL>33333</ZJL>*/}
+      <ZJL>33333</ZJL>
     </div>
   )
 }
