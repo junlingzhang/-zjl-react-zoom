@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Index from './components';
-import ZJL from '../lib/index.js';
+import ZJL from 'zjl-react-zoom/lib/index';
 console.log(111,ZJL,Index)
 const App = () => {
   return (
     <div>
-      <Index />
+      {/*<Index />*/}
+      <ZJL>33333</ZJL>
     </div>
   )
 }
